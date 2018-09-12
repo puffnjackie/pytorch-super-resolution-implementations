@@ -1,4 +1,4 @@
-# Pytorch super-resolution implementations
+# PyTorch super-resolution implementations
 
 A collections of Super-resolution models
 
