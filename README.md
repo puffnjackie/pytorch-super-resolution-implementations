@@ -28,3 +28,7 @@ python3 train.py --upscale_factor 2 --datapath /model/path/to/folder
 python3 inference.py --input_image /path/to/img --output_filename /path/to/img --model /path/to/pretrained/model
 ```
 
+# Reference 
+- https://github.com/pytorch/examples
+- https://github.com/andreasveit/densenet-pytorch
+- https://github.com/xternalz/WideResNet-pytorch
