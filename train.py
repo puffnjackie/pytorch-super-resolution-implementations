@@ -33,7 +33,7 @@ nThread = 4 # Number of thread for data loader
 parser = argparse.ArgumentParser(description='Pytorch Image/Video Super-Resolution')
 parser.add_argument('--upscale_factor',type=int,required=True, help="Super-resolution upscale factor")
 parser.add_argument('--datapath',type=str,required=True,help="Path to Original data")
-parser.add_argument('--model',type=str,default="SRCNN",help="Choose which SR model to use")
+parser.add_argument('--model',type=str,default="RDN",help="Choose which SR model to use")
 parser.add_argument('--threads',type=int,default=4,help='Number of thread for DataLoader')
 
 opt = parser.parse_args()
